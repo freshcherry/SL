@@ -1,0 +1,188 @@
+@media (min-width: 320px) and (max-width: 420px) {
+  body {
+    width: 100%;
+  }
+  body header {
+    height: 410px;
+    padding: 0;
+  }
+  body header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    left: 0;
+  }
+  body header nav .header-logo {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  body header nav .header-logo h1 {
+    font-size: 20px !important;
+  }
+  body header nav .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  body header nav .contact-item {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  body header nav .header-desc {
+    padding: 0;
+  }
+  body header nav .header-desc h1 {
+    text-align: center;
+  }
+  body header nav .header-desc ul li {
+    font-size: 16px;
+  }
+  body header .block-bg {
+    height: 420px;
+  }
+  body main {
+    margin-top: 40px;
+  }
+  body main .services {
+    width: 90%;
+  }
+  body main .services-legal .legal-header {
+    margin: 0;
+  }
+  body main .services-legal .legal-container .legal-item {
+    width: 100%;
+  }
+  body main .services-physical .physical-container .physical-item {
+    width: 100%;
+  }
+  body footer nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+  }
+  body footer nav .map {
+    width: 100%;
+  }
+  body footer nav .map img {
+    width: 100%;
+  }
+  body footer nav .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  body footer nav .mode {
+    width: 100%;
+  }
+}
+@media (min-width: 568px) and (max-width: 823px) {
+  header {
+    height: 420px;
+  }
+  header nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  header nav div.header-logo {
+    width: 100%;
+  }
+  header nav ul.contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  header nav ul.contact li.contact-item {
+    padding: 15px 0;
+  }
+  header nav div.header-desc {
+    text-align: left;
+    padding: 20px 0;
+  }
+  header nav div.header-desc h1 {
+    text-align: center;
+  }
+  header .block-bg {
+    height: 420px;
+  }
+  header .block-bg img {
+    width: 100%;
+    height: inherit;
+  }
+
+  main div.services {
+    width: 95%;
+  }
+  main div.services-legal .legal-header, main div.services-physical .legal-header {
+    margin-top: 0;
+  }
+  main div.services-legal .legal-container .legal-item, main div.services-legal .legal-container .physical-item, main div.services-legal .physical-container .legal-item, main div.services-legal .physical-container .physical-item, main div.services-physical .legal-container .legal-item, main div.services-physical .legal-container .physical-item, main div.services-physical .physical-container .legal-item, main div.services-physical .physical-container .physical-item {
+    width: 43%;
+    margin: 20px auto;
+  }
+
+  footer nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer nav div.map {
+    width: 50%;
+    height: 200px;
+  }
+  footer nav div.map img {
+    width: 95%;
+  }
+  footer nav ul.contact {
+    width: 50%;
+    text-align: center;
+  }
+  footer nav div.mode {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 823px) and (max-width: 1024px) {
+  main div.services {
+    width: 95%;
+  }
+  main div.services-legal .legal-header, main div.services-physical .legal-header {
+    margin-top: 0;
+  }
+  main div.services-legal .legal-container .legal-item, main div.services-legal .legal-container .physical-item, main div.services-legal .physical-container .legal-item, main div.services-legal .physical-container .physical-item, main div.services-physical .legal-container .legal-item, main div.services-physical .legal-container .physical-item, main div.services-physical .physical-container .legal-item, main div.services-physical .physical-container .physical-item {
+    width: 45%;
+    margin: 20px auto;
+  }
+}
